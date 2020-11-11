@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+        content="width=device-width",
+        initial-scale=1.0 />
+        <title>Notion Open-In-App Replacer</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="script.js" defer></script>
+        <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+    </head>
+    <body>
+            <h1>Open-In-App Link Replacer</h1>
+            <h5>Replaces the https:// to notion:// so that your pages Open-In-Notion-App</h5>
+
+            <div class="container">
+                <form id="form">
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="url">Enter URL</label>
+                    </div>
+                    <div class="col-75">
+                      <input type="text" id="url" name="url" placeholder="Enter URL Here" maxlength="512">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <input type="button" id= submit value="Submit">
+                  </div>
+                </form>
+                <p id=output>Output Will Be Show Here</p>
+              </div>    
+    </body>
+</html>
